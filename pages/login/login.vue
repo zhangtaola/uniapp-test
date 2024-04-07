@@ -1,11 +1,12 @@
 <template>
 	<view>
-		<zjy-easyinput errorMessage v-model="value" focus placeholder="请输入内容" @input="input"></zjy-easyinput>
+		<zjy-easyinput errorMessage v-model="value" focus placeholder="请输入内容" @input="input"></zjy-easyinput>	
 	</view>
 </template>
 
 <script>
 	export default {
+		//我这边修改了
 		data() {
 			return {
 				value: '',
