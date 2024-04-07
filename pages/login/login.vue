@@ -7,6 +7,7 @@
 <script>
 	export default {
 		//我这边修改了
+		//邱家好
 		data() {
 			return {
 				value: '',
